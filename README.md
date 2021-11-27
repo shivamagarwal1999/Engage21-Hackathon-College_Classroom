@@ -70,7 +70,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
 To run this project, make sure you have a version of python that is greater than 3.8 installed on your computer. When you download the project, open the main parent directory of the entire project in any text editor with a built-in terminal (such as Visual Studio Code), or open the directory in your computer's terminal/command prompt. Once you have the terminal open at the same directory as the manage.py file, execute
 ```
-pip install django.
+pip install -r "requirements.txt"
 ```
 This will install all the dependencies the project uses. Next, run
 ```
