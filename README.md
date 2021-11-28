@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-College-Classroom-Portal  is a web application that is meant for providing easy access between students and teachers during online learning. The app has two different types of users. You can register as a teacher, or you could register as a student. If you register as a teacher, you can create classrooms, and inside those classrooms, you can create announcements. If you register as a student, you can join classes with a unique code generated for that class. Students will be able to see announcements and can comment.Students and teachers are both able to post announcements and class comments in the classroom. Class comments are a good way to communicate with other peers in the class.In addition to the base functionality of classrooms, announcements and comments, users can upload profile pictures to customize their profile.
+College-Classroom-Portal  is a web application that is meant for providing easy access between students and teachers during online learning. The app has two different types of users. You can register as a teacher, or you could register as a student. If you register as a teacher, you can create classrooms, and inside the classrooms, you can make announcements. If you register as a student, you can join classes with a unique code generated for that class. Students will be able to see announcements and can comment.Students and teachers are both able to post announcements and class comments in the classroom. Class comments are a good way to communicate with other peers in the class.In addition to the base functionality of classrooms, announcements and comments, users can upload profile pictures to customize their profile.
 Registration cane be done using College mail id ,for now, I have used **@nsec.ac.in** as condition that only with this mail id, sudents and teachers can register and I have also made username  unique,so that anyone with same mail id can't create another usernames.
 After registration , one need to again login and then wil be lended to **index.html** page.
 
@@ -90,3 +90,16 @@ username:""
 email:""
 password:""
 ```
+
+## Problems:
+
+Making this django-app was great challenging for me , from learning HTML,CSS,JS,Django and then comming up with an idea to create it.
+
+
+## Future Work:
+
+I will add more functionality to this application where 
+ 1> Teacher can give assignments,arrange quizzes, mcqs for students and can check them too and upload scores too.
+ 2> Students can submit assignments and answer the mcqs, quizz .
+ 3> Also Separate conversion option where students can directly message to teachers and they can reply,like whatsapp.
+ 
